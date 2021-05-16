@@ -1,0 +1,39 @@
+{
+    "relay": {
+        "channels": [
+            {
+                "name": "Outdoor Light",
+                "key": "outdoor-light",
+                "pin": 13
+            },
+            {
+                "name": "East Wall Switch",
+                "key": "east-wall-switch",
+                "pin": 26
+            },
+            {
+                "name": "West Wall Switch",
+                "key": "west-wall-switch",
+                "pin": 6
+            },
+            {
+                "name": "3D Printer",
+                "key": "3d-printer",
+                "pin": 5
+            }
+        ]
+    },
+    "buttons": [
+        {
+            "name": "Outdoor Light",
+            "key": "outdoor-light",
+            "pin": 0
+        },
+        {
+            "name": "3D Printer",
+            "key": "3d-printer",
+            "pin": 0
+        }
+    ],
+    "rabbitmq": {}
+}
