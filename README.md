@@ -10,7 +10,7 @@ Place populated `config.json` next to `main.py` with configured values.  See `co
 
 ### System service
 
-Copy `iot-raspberry-pi-controller.service` to `/etc/systemd/system` and then run `sudo systemctl start iot-raspberry-pi-controller.service`.  If satisfied, enable it with `sudo systemctl enable iot-raspberry-pi-controller.service`.  The service can be stopped at any time by running `sudo systemctl stop iot-raspberry-pi-controller.service`.
+Copy `raspberry-pi-relay-controller.service` to `/etc/systemd/system` and then run `sudo systemctl start raspberry-pi-relay-controller.service`.  If satisfied, enable it with `sudo systemctl enable raspberry-pi-relay-controller.service`.  The service can be stopped at any time by running `sudo systemctl stop raspberry-pi-relay-controller.service`.
 
 ## Todo
 
